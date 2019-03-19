@@ -1,10 +1,15 @@
 #!/bin/bash
 
+# Update repositories
+sudo apt-get update
+
+sudo apt install -y python-pip
+
 # Install Flask
 pip install Flask
 
-# Run Python file
-mystatus.py
+# Install psutil to get system information
+pip install psutil
 
-# Go to https:$publicIp/status
-curl https:$publicIp/status
+# Run Python file
+python mystatus.py
