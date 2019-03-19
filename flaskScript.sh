@@ -1,6 +1,6 @@
 #!/bin/bash
 # Install pip
-sudo apt install python3-pip
+sudo apt install python3.6-pip
 # Install Flask
 pip install Flask
 # Install psutil to get system information
