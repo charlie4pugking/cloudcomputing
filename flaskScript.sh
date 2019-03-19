@@ -1,7 +1,6 @@
 #!/bin/bash
-sudo apt-get update
 # Install pip
-sudo apt install python-pip
+sudo apt-get install python-pip
 # Install Flask
 pip install Flask
 # Install psutil to get system information
