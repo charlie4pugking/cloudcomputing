@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo apt update
+sudo apt-get update
 # Install pip
 sudo apt install python-pip
 # Install Flask
