@@ -1,5 +1,4 @@
 #!/bin/bash
-
 sudo apt-get update
 # Install pip
 sudo apt install python-pip
