@@ -1,7 +1,7 @@
 #!/bin/bash
 # Install Flask
-pip install Flask
+pip3 install Flask
 # Install psutil to get system information
-pip install psutil
+pip3 install psutil
 # Run Python file
 python3 mystatus.py
