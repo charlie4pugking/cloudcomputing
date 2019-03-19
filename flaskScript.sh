@@ -1,6 +1,4 @@
 #!/bin/bash
-# Update repositories
-sudo apt-get update
 # Install pip
 sudo apt install python3-pip
 sudo apt install python-pip
