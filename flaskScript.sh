@@ -4,7 +4,8 @@
 sudo apt-get update
 
 # Install pip
-sudo apt install -y python-pip
+sudo apt install python3-pip
+sudo apt install python-pip
 
 # Install Flask
 pip install Flask
